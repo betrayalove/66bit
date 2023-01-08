@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from "react";
 import { NavLink } from 'react-router-dom';
-import './style.css'
+
 
 const Footer = () => {
     return (
-        <div className='wrapper-footer'>
-        <footer className=''>
+        <div >
+        <footer className='header__text themes_themes '>
 
-                <p><NavLink to="/">новости</NavLink></p>
-        <p><NavLink to="/themes">темы</NavLink></p>
+                <p><NavLink to="/" className='main-footer'>новости</NavLink></p>
+        <p ><NavLink to="/themes" className='main-footer'>темы</NavLink></p>
 
 
 
