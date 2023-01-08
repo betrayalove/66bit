@@ -1,10 +1,7 @@
 import NewsList from "../components/news-list";
 
-import React, {useEffect, useState} from "react";
-import {NavLink} from 'react-router-dom';
+import React from "react";
 import Footer from "../components/footer/footer";
-import responseLight from './Themes'
-import {useTheme} from "../context/ThemeProvider";
 
 
 const Main = () => {
