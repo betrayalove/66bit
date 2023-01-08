@@ -1,0 +1,17 @@
+.wrapper-footer{
+
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: black;
+}
+p{
+    padding: 0 10px;
+
+}
